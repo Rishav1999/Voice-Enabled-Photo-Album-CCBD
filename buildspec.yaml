@@ -4,7 +4,6 @@ phases:
     commands:
       - aws cloudformation package --template-file template.yaml --s3-bucket lambdapipeline-demo --output-template-file outputsamtemplate.yml
 artifacts:
-  type: zip
   files:
     - template.yaml
     - outputsamtemplate.yml

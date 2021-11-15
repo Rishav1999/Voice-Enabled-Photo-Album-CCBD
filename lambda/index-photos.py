@@ -7,7 +7,7 @@ import requests
 print('Loading function')
 
 s3 = boto3.client('s3')
-
+#Rishav here
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
